@@ -37,6 +37,6 @@
 
 1. **تحميل أو نسخ المستودع (Clone):**
    ```bash
-   git clone [رابط_مستودع_Git_الخاص_بك_هنا]
+   git clone [https://github.com/aalzaanen-cyber/github-training-project]
 
 1. **تشغيل الموقع من ملف index.html**
