@@ -10,30 +10,24 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark navbar-dark-custom sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom sticky-top shadow">
     <div class="container">
-        <a class="navbar-brand fw-bold fs-3 text-white" href="index.html">الاحمد التعليمي</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand fw-bold text-white" href="index.html">الاحمد التعليمي</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active px-3" href="index.html">الرئيسية</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link px-3" href="courses.html">الدورات</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link px-3" href="about.html">عن المنصة</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link px-3" href="contact.html">تواصل معنا</a>
-                </li>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                <li class="nav-item"><a class="nav-link active px-3" href="index.html">الرئيسية</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="courses.html">الدورات</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="about.html">عن المنصة</a></li>
+                <li class="nav-item"><a class="nav-link px-3 mb-3 mb-lg-0" href="contact.html">تواصل معنا</a></li>
+                <li class="nav-item ms-lg-3"><a class="nav-link btn-nav-action text-center" href="courses.html">ابدأ الآن</a></li>
             </ul>
         </div>
     </div>
 </nav>
+
 
 <section class="py-5 bg-white position-relative overflow-hidden">
     <div class="position-absolute top-0 start-0 w-100 h-100 opacity-25" style="background: radial-gradient(circle at 10% 20%, rgba(37, 99, 235, 0.05) 0%, transparent 80%); pointer-events: none;"></div>
@@ -111,48 +105,34 @@
     </div>
 </section>
 
-<footer class="footer-bg pt-5 pb-3 mt-5 border-top">
+<footer class="footer-custom pt-5 pb-3">
     <div class="container">
         <div class="row g-4 text-center text-md-start">
-            <div class="col-md-3 text-md-end">
+            <div class="col-md-4 text-md-end">
                 <h5 class="fw-bold mb-3">الاحمد التعليمي</h5>
-                <p class="text-muted small">منصة تعليمية تهدف إلى تمكين المتعلمين حول العالم من اكتساب مهارات المستقبل.</p>
-                <div class="d-flex justify-content-md-start justify-content-center gap-3 fs-5 mt-3">
-                    <a href="#" class="text-secondary"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="text-secondary"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="text-secondary"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="text-secondary"><i class="fab fa-instagram"></i></a>
-                </div>
+                <p class="small lh-lg">منصة تعليمية متطورة تسعى لتقديم أفضل الخبرات والمهارات لتأهيل جيل متمكن ومستعد لتحديات سوق العمل المستقبلية.</p>
             </div>
-            <div class="col-md-3 text-md-end">
+            <div class="col-md-2 text-md-end">
                 <h5 class="fw-bold mb-3">روابط سريعة</h5>
                 <ul class="list-unstyled lh-lg small">
-                    <li><a href="index.html" class="text-decoration-none text-muted">الرئيسية</a></li>
-                    <li><a href="courses.html" class="text-decoration-none text-muted">الدورات التعليمية </a></li>
-                    <li><a href="about.html" class="text-decoration-none text-muted">عنا الاحمد التعليمي</a></li>
-                    <li><a href="contact.html" class="text-decoration-none text-muted">اتصل بنا </a></li>
+                    <li><a href="index.html" class="footer-link">الرئيسية</a></li>
+                    <li><a href="courses.html" class="footer-link">الدورات</a></li>
                 </ul>
             </div>
             <div class="col-md-3 text-md-end">
-                <h5 class="fw-bold mb-3">الدورات</h5>
+                <h5 class="fw-bold mb-3">الدورات الرئيسية</h5>
                 <ul class="list-unstyled lh-lg small">
-                    <li><a href="#" class="text-decoration-none text-muted">برمجة</a></li>
-                    <li><a href="#" class="text-decoration-none text-muted">تصميم</a></li>
-                    <li><a href="#" class="text-decoration-none text-muted">تسويق</a></li>
+                    <li><a href="#" class="footer-link">برمجة الويب المتكاملة</a></li>
+                    <li><a href="#" class="footer-link">تصميم واجهات المستخدم</a></li>
                 </ul>
             </div>
             <div class="col-md-3 text-md-end">
-                <h5 class="fw-bold mb-3">تواصل معنا</h5>
-                <ul class="list-unstyled small text-muted lh-lg">
-                    <li><i class="fas fa-envelope me-2"></i> info@al-ahmed.com</li>
-                    <li><i class="fas fa-phone me-2" dir="ltr"></i> +20 123 456 7890</li>
-                </ul>
+                <h5 class="fw-bold mb-3">بيانات التواصل</h5>
+                <p class="small">info@al-ahmed.com</p>
             </div>
         </div>
-        <hr class="my-4 text-muted">
-        <div class="text-center text-muted small">
-            © 2026 الاحمد التعليمي. جميع الحقوق محفوظة.
-        </div>
+        <hr class="my-4 border-secondary opacity-25">
+        <div class="text-center text-secondary small">© 2026 الاحمد التعليمي. جميع الحقوق محفوظة.</div>
     </div>
 </footer>
 
